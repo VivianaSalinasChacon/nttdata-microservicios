@@ -6,5 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: VUESTRA URL GIT
-          searchPaths: CARPETA-GIT
+          uri: https://github.com/Nelts94/nttdata-microservicios.git
+          searchPaths: config-data
+  security:
+    user:
+      name: root
+      password: s3cr3t

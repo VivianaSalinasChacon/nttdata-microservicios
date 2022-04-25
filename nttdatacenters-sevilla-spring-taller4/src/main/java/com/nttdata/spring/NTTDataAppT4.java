@@ -11,11 +11,11 @@ import com.nttdata.spring.repository.Customer;
 import com.nttdata.spring.services.CustomerManagementServiceI;
 
 /**
- * Formación - Spring - Taller 4
+ * Formación - Microservicios
  * 
  * Clase principal
  * 
- * @author NTT Data Sevilla
+ * @author Prueba Microservicios Dani
  *
  */
 @SpringBootApplication
