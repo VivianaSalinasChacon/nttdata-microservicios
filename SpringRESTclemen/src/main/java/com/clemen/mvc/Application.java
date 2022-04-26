@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.ApplicationContext;
 
-@EnableEurekaClient
+@EnableEurekaClient //servidor de registros de microservicios de proyectito 
 @SpringBootApplication
 public class Application {
 	public static void main(String[] args) {
