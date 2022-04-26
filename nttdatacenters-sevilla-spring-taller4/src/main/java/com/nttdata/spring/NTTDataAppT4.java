@@ -1,4 +1,4 @@
-package com.nttdata.spring;
+package comm.nttdata.spring;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import com.nttdata.spring.repository.Customer;
 import com.nttdata.spring.services.CustomerManagementServiceI;
@@ -18,6 +19,7 @@ import com.nttdata.spring.services.CustomerManagementServiceI;
  * @author Prueba Microservicios Dani
  *
  */
+@EnableEurekaClient
 @SpringBootApplication
 public class NTTDataAppT4 implements CommandLineRunner {
 
