@@ -1,4 +1,4 @@
-package comm.nttdata.spring;
+package com.nttdata.spring;
 
 import java.util.List;
 
